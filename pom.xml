@@ -53,6 +53,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>bdeb.programmation.TP_A18.TpA18Application</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

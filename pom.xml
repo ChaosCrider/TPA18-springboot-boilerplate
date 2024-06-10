@@ -14,7 +14,7 @@
 	<name>TP-A18</name>
 	<description>BoilerPlatePorject for CICD purposes</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

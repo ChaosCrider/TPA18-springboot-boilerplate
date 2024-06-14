@@ -16,7 +16,7 @@ public class StudentController {
     @Autowired
     private StudentRepository studentRepository;
 
-    @GetMapping
+    @GetMapping("/")
     public List<Student> getAllStudents(){
         return studentRepository.findAll();
     }
@@ -31,7 +31,7 @@ public class StudentController {
         }
     }
 
-    @PostMapping
+    @PostMapping("/")
     public Student createStudent(@RequestBody Student student){
         return studentRepository.save(student);
     }

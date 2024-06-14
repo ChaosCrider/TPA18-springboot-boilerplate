@@ -8,6 +8,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class TpA18Application extends SpringBootServletInitializer {
 
+	public static void main(String[] args) {
+		SpringApplication.run(TpA18Application.class, args);
+	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(TpA18Application.class);

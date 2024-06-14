@@ -1,3 +1,5 @@
-FROM openjdk:22-jdk-slim
-COPY target/test-classes/bdeb/programmation/TP_A18/TpA18ApplicationTests.class /app.jar
+FROM openjdk:17-slim
+WORKDIR /app
+COPY targetTP-A18-0.0.1-SNAPSHOT.war /app.war
+EXPOSE 9097
 ENTRYPOINT ["java", "-jar", "/app.jar"]
